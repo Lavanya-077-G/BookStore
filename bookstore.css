@@ -1,0 +1,162 @@
+.titlebox {
+  background-image: url("bgimg.jpeg");
+  width: 100%;
+  height: 550px;
+  position: relative;
+  background-size: cover;
+  align-items: center;
+  display: grid;
+}
+.searchcontainer {
+  display: flex;
+  justify-content: center;
+}
+.inputfield {
+  display: grid;
+  text-align: center;
+}
+#searchcontent,
+#searchbutton {
+  height: 60px;
+  width: 135px;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  border-radius: 0 15px 15px 0;
+}
+#searchcontent {
+  border-radius: 15px 0 0 15px;
+}
+#searchinput {
+  height: 53px;
+  width: 252px;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  margin: 20px;
+}
+.newcard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  height: 350px;
+  width: 250px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.search-bar {
+  font-size: 20px;
+  margin: 15px;
+  margin-left: 0px;
+  position: sticky;
+  top: 0px;
+  justify-content: flex-end;
+  display: flex;
+  background-color: white;
+}
+h3 {
+  position: sticky;
+  top: 23px;
+  display: block;
+  background-color: lightgray;
+  border: 2px lightgray solid;
+  margin: 0px;
+  padding: 5px;
+}
+
+.book-container {
+  margin: auto;
+}
+
+.book-container:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+#pop-up {
+  width: 1150px;
+  height: 680px;
+  visibility: hidden;
+  top: 10%;
+  bottom: 10%;
+  right: 10%;
+  left: 10%;
+  position: fixed;
+  z-index: 30;
+  align-content: center;
+  padding: 10px;
+  background-color: white;
+  border: 5px gray solid;
+}
+
+.similar-books {
+  height: auto;
+  width: auto;
+  background-color: white;
+  display: flex;
+  position: fixed;
+}
+
+#close-button {
+  float: right;
+  border: none;
+}
+
+.similar-header {
+  font-size: 30px;
+}
+
+.img-bookdetails {
+  display: flex;
+  position: relative;
+}
+
+#book-details {
+  width: 300px;
+}
+
+#similar-books {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border: 10px lightgray solid;
+  overflow: scroll;
+  width: auto;
+}
+
+#books {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header {
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+body {
+  left: 0px;
+  right: 0px;
+}
+
+a {
+  margin: 5px;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#loading {
+  visibility: visible;
+  color: black;
+  font-size: 35px;
+}

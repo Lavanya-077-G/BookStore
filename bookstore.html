@@ -1,0 +1,39 @@
+<!DocType html>
+<head>
+    <link rel="stylesheet" href="bookstore.css">
+</head>
+<html>
+
+<body id="body">
+    <div id="pop-up">
+        <button id="close-button">x</button>
+        <div class="similar-header">Book Details</div>
+        <div class="similar-books" id="similarbook-container"></div>
+    </div>
+    <div class="titlebox">
+        <div class="inputfield">
+            <h1>New York Times Book Store</h1>
+            <div class="searchcontainer">
+                <select id="searchcontent">
+                    <option>Choose Any</option>
+                    <option>Author</option>
+                    <option>Title</option>
+                    <option>Publisher</option>
+                </select>
+                <div class="searchinput" id="append">
+                    <input type="text" id="searchinput">
+                </div>
+                <button id="searchbutton">search</button>
+            </div>
+        </div>
+    </div>
+    <div class="search-bar">
+        <label>Genres</label>
+        <select id="search-value"></select>
+        <label>Closest Publish from</label>
+        <input type="date" id="filterbydate">
+    </div>
+    <div id="apilink" class="overallbooks"></div>
+    <script type="module" src="bookstore.js"></script>
+    </body>
+    </html>
